@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__48-[AGAuthViewController authSwitchChangeHandler:]_block_invoke:AGAuthViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[userInfo nickname]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AGApiViewController simpleShareAllButtonClickHandler:]:AGApiViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "INHERIT_VALUE">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

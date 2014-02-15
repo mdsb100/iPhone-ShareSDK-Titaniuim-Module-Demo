@@ -1,0 +1,30 @@
+//
+// PLACE ANY BUILD DEFINITIONS IN THIS FILE AND THEY WILL BE
+// PICKED UP DURING THE APP BUILD FOR YOUR MODULE
+//
+// see the following webpage for instructions on the settings
+// for this file:
+// http://developer.apple.com/mac/library/documentation/DeveloperTools/Conceptual/XcodeBuildSystem/400-Build_Configurations/build_configs.html
+//
+
+//
+// How to add a Framework (example)
+//
+// OTHER_LDFLAGS=$(inherited) -framework Foo
+//
+// Adding a framework for a specific version(s) of iPhone:
+//
+// OTHER_LDFLAGS[sdk=iphoneos4*]=$(inherited) -framework Foo
+// OTHER_LDFLAGS[sdk=iphonesimulator4*]=$(inherited) -framework Foo
+//
+//
+// How to add a compiler define:
+//
+// OTHER_CFLAGS=$(inherited) -DFOO=1
+//
+//
+// IMPORTANT NOTE: always use $(inherited) in your overrides
+//
+t_path = "../../modules/iphone/com.baidao.testsharesdk/0.1/platform/ShareSDK/"
+
+OTHER_LDFLAGS=$(inherited) -framework CoreTelephony -F$(t_path) -framework ShareSDK -F$(t_path)Core/ -framework AGCommon -framework ShareSDKCoreService -F$(t_path)UI/ -framework ShareSDKiPhoneAppRecommendShareViewUI -framework ShareSDKiPadDefaultShareViewUI -framework ShareSDKiPadSimpleShareViewUI -framework ShareSDKiPhoneDefaultShareViewUI -framework ShareSDKiPhoneSimpleShareViewUI -F$(t_path)Connection/ -framework DouBanConnection -framework FacebookConnection -framework InstapaperConnection -framework KaiXinConnection -framework MailConnection -framework PrintConnection -framework QQConnection -framework QZoneConnection -framework RenRenConnection -framework SinaWeiboConnection -framework SohuConnection -framework T163WeiboConnection -framework TencentWeiboConnection -framework TwitterConnection -framework WeChatConnection -framework YouDaoNoteConnection -framework SMSConnection -F$(t_path)Extend/QQConnectSDK/ -framework TencentOpenAPI
