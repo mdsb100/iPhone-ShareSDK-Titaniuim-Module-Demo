@@ -1,7 +1,7 @@
 A demo of iphone titanium-module to use ShareSDK.
 ShareSDK is a Chinese social share platform.
 
-You should have a lot of knowledge of titanium, tianium-module, alloy, android developing.
+You should have a lot of knowledge of titanium, tianium-module, alloy, iphone developing.
 
 This demo is created by titanium 3.2.0GA
 
