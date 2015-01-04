@@ -1,4 +1,4 @@
-最新教程请查看[教程](https://github.com/mdsb100/titanium-good-practices)
+最新教程请查看[教程](https://github.com/mdsb100/titanium-good-practices/tree/master/ShareSDKModuleDemo)
 
 A demo of iphone titanium-module to use ShareSDK.
 ShareSDK is a Chinese social share platform.
